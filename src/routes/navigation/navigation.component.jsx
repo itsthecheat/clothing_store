@@ -9,12 +9,15 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className='navigation'>
-        <Link className='logo-container'>
+        <Link className='logo-container' to='/'>
           <CrwnLogo className='logo'/>
         </Link>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/shop'>
-            SHOP
+            shop
+          </Link>
+          <Link className='nav-link' to='/sign-in'>
+            sign in
           </Link>
         </div>
       </div>
